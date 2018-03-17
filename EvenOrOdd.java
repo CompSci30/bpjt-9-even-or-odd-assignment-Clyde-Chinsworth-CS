@@ -2,13 +2,14 @@
 //17/03/2018
 import java.io.*;
 import java.util.*;
-public class FileName
+public class EvenOrOdd
 {
 	public static void main(String args[])
 	{
-		System kbReader = new Scanner(System.in);
+		Scanner kbReader = new Scanner(System.in);
 		System.out.print("Enter an integer");
-		int num = kbReader.next();
+		int num = kbReader.nextInt();
+
 	}
 }
 
