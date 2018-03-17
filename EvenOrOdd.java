@@ -11,6 +11,8 @@ public class EvenOrOdd
 		int num = kbReader.nextInt();
                 if ((num % 2) == 0) //checks remainder of num / 2, if 0 , retur$
                 	System.out.println("The integer " + num + " is even.");
+                else 
+                	System.out.println("The integer " + num + " is odd.");
 	}
 }
 
